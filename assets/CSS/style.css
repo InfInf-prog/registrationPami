@@ -20,6 +20,7 @@
     border-radius: 15%;
     margin: 4%;
     padding: 10vh;
+    overflow: hidden;
 }
 .button {
     margin: auto;
@@ -30,6 +31,7 @@
     color: white;
     font-size: 18px;
     font-weight: bold;
+    overflow: hidden;
 }
 body {
     background-color: #4EC5D6;
