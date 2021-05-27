@@ -20,6 +20,9 @@
     border-radius: 15%;
     margin: 4%;
     padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 .button {
