@@ -1,41 +1,131 @@
-#main h3 {
-    text-align: center;
-    font-size: 35px;
-    font-weight: normal;
-}
-/*#main p {
-    margin: 5%;
-    align-items: center;
-    justify-content: center;
-}*/
-#main p input{
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-#main p input:focus {
-    background-color: lightblue;
-}
 .block {
     background: white;
-    border-radius: 15%;
-    margin: 4%;
-    padding: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0px;
+
 }
-.button {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #446381;
+.ceilingBlock {
+    background: #D7D7D7;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 0px;
+}
+
+.ceilingBlock p input {
+    /*position: absolute;*/
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 1%;
+    margin-left: 1%;
+    /*=padding-left: 5%;*/
+}
+
+.ceilingBlock p button {
+    padding: 1%;
+    background-color: #4EC5D6;
     color: white;
     font-size: 18px;
     font-weight: bold;
-    overflow: hidden;
+    font-family: Roboto;
+    border-radius: 40%;
+    /*padding-left: 5%;*/
 }
+
+.block h3 {
+    padding: 10%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: Roboto;
+    /*color: #446381;*/
+    font-weight: bold;
+}
+
+/* Rectangle 42 */
+#icon {
+    /*position: absolute;*/
+    /*width: 7px;
+    height: 6px;
+    left: 2px;
+    top: 0px;*/
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Roboto;
+    background: white;
+    border-radius: 15%;
+}
+
+#example {
+/*position: absolute;*/
+width: 80%;
+margin:auto;
+display: flex;
+/*align-items: center;*/
+/*justify-content: center;*/
+/*height: 231px;
+left: 289px;
+top: 207px;*/
+
+background: #FFFFFF;
+border: 3px solid #6CBCC3;
+box-sizing: border-box;
+border-radius: 40px;
+}
+
+#pic {
+    margin-left: 2%;
+    width: 25%;
+    height: 20%;
+    background: #C4C4C4;
+    border-radius: 15%;
+}
+
+#inf {
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+#textarea {
+    margin-top: 10%;
+    border: 1px solid #888;
+    resize: none;
+    width: 250%;
+    height: 10vh;
+}
+
+/*#menu {
+position: absolute;
+width: 30%;
+height: 10%;
+left: 0px;
+top: 15%;
+
+background-color: #D7D7D7;
+border: 1px solid rgba(0, 0, 0, 0.25);
+box-sizing: border-box;
+}*/
+#account {
+    position: absolute;
+    top: 15%;
+    width: 21%;
+    height: 10%;
+    left: 0px;
+    /*display: flex;*/
+    /*background-color: #446381;*/
+    background-color: #D7D7D7;
+    font-family: Roboto;
+   /* color: white;*/
+    font-size: 18px;
+    font-weight: bold;
+   /* overflow: hidden;*/
+}
+
 body {
     background-color: #4EC5D6;
     width: 100%;
