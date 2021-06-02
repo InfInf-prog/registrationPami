@@ -20,7 +20,7 @@
 .block {
     background: white;
     border-radius: 15%;
-    margin: 4%;
+/*     margin: 4%; */
     padding: 10vh;
     display: flex;
     align-items: center;
